@@ -2,7 +2,7 @@
 
 > **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005. 
 
-> **GitHub** was crated in 2008 and is simply a free online storage cloud specifically for Git repositories.
+> **GitHub** was crated in 2008 and is simply an online storage specifically for Git repositories.
 
 ## Background
 
@@ -18,6 +18,10 @@ So Git is not just for code development, its for tracking and collaboration of a
 
 ## Why GitHub?
 
-**GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to collaborate, and dont need to manage servers or the app.  The community is also very large, so there is a lot of inspiration and support.
+**GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to collaborate. And of course we dont need to manage servers, storage, backups or the app.  There is also a very large community, so there is a lot of inspiration and support.
 
+## Types of GitHub
 
+Github free | Less granular permissions and features
+----------------------------------------------------------
+Github Enterprise | More granular permissions and features
