@@ -20,9 +20,23 @@ So Git is not just for code development, its for tracking and collaboration of a
 
 **GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to collaborate. And of course we dont need to manage servers, storage, backups or the app.  There is also a very large community, so there is a lot of inspiration and support.
 
+Nowadays, Git is synonymous with GitHub. 
+
 ## Types of GitHub
 
 Acc Type | Differences
 ------------|---------------------------------------------
 Github Free | Less granular permissions and features
 Github Enterprise | More granular permissions and features
+
+## How to Access & Manage Git Repositories
+
+There are 3 ways to access Git
+
+* Via command line (recommended)
+* Via a browser at github.com 
+* Via the [PC/MAC app] (https://desktop.github.com/)
+
+## 
+
+
