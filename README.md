@@ -27,7 +27,7 @@ Nowadays, Git is synonymous with GitHub.
 Acc Type | Differences
 ------------|---------------------------------------------
 GitHub Free | Less granular permissions and features
-GitHub Enterprise | More granular permissions and features
+GitHub Enterprise | More granular permissions and features, advanced reviewing.
 
 ## How to Access & Manage Git Repositories
 
