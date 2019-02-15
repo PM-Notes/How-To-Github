@@ -35,7 +35,7 @@ There are 3 ways to access Git
 
 * Via command line (recommended)
 * Via a browser at github.com 
-* Via the [PC/MAC app] (https://desktop.github.com/)
+* Via the [PC/MAC app](https://desktop.github.com/)
 
 ## 
 
