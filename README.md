@@ -18,6 +18,6 @@ So Git is not just for code development, its for tracking and collaboration of a
 
 ## Why GitHub?
 
-**GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to collaborate, and dont need to manage servers or the app.  The community is also very large so there is a lot of inspiration and support.
+**GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to collaborate, and dont need to manage servers or the app.  The community is also very large, so there is a lot of inspiration and support.
 
 
