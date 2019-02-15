@@ -4,6 +4,8 @@
 
 > **GitHub** was crated in 2008 and is simply a free online storage cloud specifically for Git repositories.
 
+## Background
+
 Git simplified collaborating on projects by giving team members the ability to work on files offline, and easily merge changes with the master branch of a project. 
 
 This allowed multiple people to work on the same files at the same time, any suggested changes can be reviewed, before being pushed into the master branch. 
