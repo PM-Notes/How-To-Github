@@ -54,7 +54,7 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 Git Speak | Means..
 ------------|---------------------------------------------
 repository| A folder for files relating to a particular project.
-clone| Downlaod a repository from GitHub to your local computer.
+clone| Download a repository from GitHub to your local computer.
 commit| Save changes to files into a staging before pushing back to GitHub.
 push | Synchronise the changes from the staging area to GitHub.
 branch | Used to isolate development work without affecting other branches in the repository.
