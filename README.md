@@ -26,7 +26,7 @@ Nowadays, Git is synonymous with GitHub.
 
 Acc Type | Differences
 ------------|---------------------------------------------
-GitHub Free | Less granular permissions and features
+GitHub Free | Less granular permissions and features.
 GitHub Enterprise | More granular permissions and features, advanced reviewing.
 
 ## How to Access & Manage Git Repositories
@@ -49,4 +49,16 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 * Edit the README.md [markdown](https://guides.github.com/features/mastering-markdown/) file that was automatically created with the new repository, then synchronise (push) the changes back to GitHub.com
 * Create a new file and synchronise changes back to GitHub.com
 
+## Parlance
+
+Git Speak | Means..
+------------|---------------------------------------------
+repository| A folder for files relating to a particular project.
+clone| Downlaod a repository from GitHub to your local computer.
+commit| Save changes to files into a staging before pushing back to GitHub.
+push | Synchronise the changes from the staging area to GitHub.
+branch | Used to isolate development work without affecting other branches in the repository.
+merge | Merge a branch into the master file(s)
+
+## ..
 
