@@ -31,7 +31,7 @@ Github Enterprise | More granular permissions and features
 
 ## How to Access & Manage Git Repositories
 
-There are 3 ways to access Git when collaborating, creating or managing files and repositories.  
+There are 3 ways to access Git when collaborating, creating or managing files and repositories: 
 
 * Via command line
 * Via a browser at [github.com](https://github.com) 
