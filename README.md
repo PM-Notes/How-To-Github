@@ -34,7 +34,7 @@ Github Enterprise | More granular permissions and features
 There are 3 ways to access Git
 
 * Via command line (recommended)
-* Via a browser at github.com 
+* Via a browser at [github.com](https://github.com) 
 * Via the [PC/MAC app](https://desktop.github.com/)
 
 ## 
