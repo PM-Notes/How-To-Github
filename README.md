@@ -46,7 +46,7 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 * Create a GitHub.com account
 * Create a repository in the GitHub.com WebUI
 * From Cli, clone the repository so the folder and file is downloaded to our computer.
-* Edit the README.md markdown file that was automatically created with the new repository, then synchronise (push) the changes back to GitHub.com
+* Edit the README.md [markdown](https://guides.github.com/features/mastering-markdown/) file that was automatically created with the new repository, then synchronise (push) the changes back to GitHub.com
 * Create a new file and synchronise changes back to GitHub.com
 
 
