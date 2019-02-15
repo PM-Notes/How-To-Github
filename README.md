@@ -25,5 +25,4 @@ So Git is not just for code development, its for tracking and collaboration of a
 Acc Type | Differences
 ------------|---------------------------------------------
 Github Free | Less granular permissions and features
-------------|---------------------------------------------
 Github Enterprise | More granular permissions and features
