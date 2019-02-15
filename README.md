@@ -1,6 +1,6 @@
 # How-To-Github
 
-Git is a free, fast and efficent open source version control system created by Linus Torvalds in 2005.  It simplified collaborating on projects by giving team members the ability to work on files offline, and easily merge changes with the master branch of a project. 
+Git is a free, fast and efficent open source version control system created by Linus Torvalds in 2005.  Git simplified collaborating on projects by giving team members the ability to work on files offline, and easily merge changes with the master branch of a project. 
 
 This allowed multiple people to work on the same files at the same time, any suggested changes can be reveiwed, before being pushed into the master branch. 
 
