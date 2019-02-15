@@ -42,3 +42,11 @@ All 3 do a similar thing.  Generally speaking you will use a combination of the 
 ## How do I start?
 
 The **GutHub** [Online Help](https://help.github.com/) is the best reference for beginners and advanced users.  But if you want to get stuck in before you start to reference the help files, we will be doing the following in this article:
+
+* Create a GitHub.com account
+* Create a repository in the GitHub.com WebUI
+* From Cli, clone the repository so the folder and file is downloaded to our computer.
+* Work on the file that was in the new repository (readme.md) and synchronise changes back to GitHub.com
+* Create a new file and synchronise changes back to GitHub.com
+
+
