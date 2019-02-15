@@ -51,7 +51,7 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 
 ## Parlance
 
-Git Speak | Means..
+Git | Explaination
 ------------|---------------------------------------------
 repository| A folder for files relating to a particular project.
 clone| Download a repository from GitHub to your local computer.
