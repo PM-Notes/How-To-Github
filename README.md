@@ -31,11 +31,13 @@ Github Enterprise | More granular permissions and features
 
 ## How to Access & Manage Git Repositories
 
-There are 3 ways to access Git when collaborating, creating or managing files and repositories.  All 3 do a similar thing.  Generally speaking you will need to go to the website to create the repository, then usually use the comman line to manage the repository and files. Becoming familiar with the Command Line and Browser is essential.  The app is not.
+There are 3 ways to access Git when collaborating, creating or managing files and repositories.  
 
 * Via command line
 * Via a browser at [github.com](https://github.com) 
 * Via the [PC/MAC app](https://desktop.github.com/)
+
+All 3 do a similar thing.  Generally speaking you will use a comnination of the CLI and webUI.  You will need to go to the website to create the repository and obtain its unique URL, then usually will use the comman line to manage the repository and files. Becoming familiar with the Command Line and Browser is essential, the app is not.
 
 ## 
 
