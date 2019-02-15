@@ -1,6 +1,7 @@
 # How-To-Github
 
 > **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005. 
+
 > **GitHub** was crated in 2008 and is simply a free online storage cloud specifically for Git repositories.
 
 Git simplified collaborating on projects by giving team members the ability to work on files offline, and easily merge changes with the master branch of a project. 
