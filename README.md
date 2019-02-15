@@ -26,8 +26,8 @@ Nowadays, Git is synonymous with GitHub.
 
 Acc Type | Differences
 ------------|---------------------------------------------
-Github Free | Less granular permissions and features
-Github Enterprise | More granular permissions and features
+GitHub Free | Less granular permissions and features
+GitHub Enterprise | More granular permissions and features
 
 ## How to Access & Manage Git Repositories
 
@@ -37,8 +37,8 @@ There are 3 ways to access Git when collaborating, creating or managing files an
 * Via a browser at [github.com](https://github.com) 
 * Via the [PC/MAC app](https://desktop.github.com/)
 
-All 3 do a similar thing.  Generally speaking you will use a comnination of the CLI and webUI.  You will need to go to the website to create the repository and obtain its unique URL, then usually will use the comman line to manage the repository and files. Becoming familiar with the Command Line and Browser is essential, the app is not.
+All 3 do a similar thing.  Generally speaking you will use a combination of the CLI and webUI.  You will need to go to the website to create the repository and obtain its unique URL, then usually will use the command line to manage the repository and files. Becoming familiar with the Command Line and Browser is essential, the app is not.
 
-## 
+## How do I start?
 
-
+The **GutHub** [Online Help](https://help.github.com/) is the best reference for beginners and advanced users.  But if you want to get stuck in before you start to reference the help files, we will be doing the following in this article:
