@@ -6,7 +6,9 @@ This allowed multiple people to work on the same files at the same time, any sug
 
 Git repositories (storage locations) could be saved locally on ones computer, or on a central server and shared amoungst teams within an organisation.
 
-Git doesn't care about what the contents of a file is, or its file type, it only cares about the differences between different versions of the same file, so it can keep track of them.  Git is not just for code developement, its for tracking and collaboration of any type of file, from a simple How To docuemnt to compelex architectual drawings. 
+Git doesn't care about what the contents of a file is, or its file type, it only cares about the differences between different versions of the same file, so it can keep track of them.  
+
+So Git is not just for code developement, its for tracking and collaboration of any type of file, from a simple How To docuemnt to compelex architectual drawings. 
 
 **GitHub** was crated in 2008 is simply a free online storage cloud specifically for Git repositories.  Github makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  
 
