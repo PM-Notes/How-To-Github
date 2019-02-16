@@ -164,8 +164,50 @@ How-To-Github|master ⇒ pwd
 /Users/nico/scripts/How-To-Github
 ```
 
-# Create a file locally and upload (Push!) to GitHub
+# Create a file locally and upload (Push) to GitHub
+```
+How-To-Github|master⚡ ⇒ touch a_file_to_push.txt
+How-To-Github|master⚡ ⇒ ls -la
+total 16
+drwxr-xr-x   5 nico  staff   170 16 Feb 15:58 .
+drwxr-xr-x   9 nico  staff   306 16 Feb 15:06 ..
+drwxr-xr-x  13 nico  staff   442 16 Feb 15:58 .git
+-rw-r--r--   1 nico  staff  5757 16 Feb 15:06 README.md
+-rw-r--r--   1 nico  staff     0 16 Feb 15:58 a_file_to_push.txt
+```
+# Perform a git status to view what Git thinks about our new file
 
+Notice Git is aware of the file but mentions its untracked:
+
+How-To-Github|master⚡ ⇒ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	a_file_to_push.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+How-To-Github|master⚡ ⇒
+
+# Lets track (add) the file and perform a git status again
+
+```
+How-To-Github|master⚡ ⇒ git add a_file_to_push.txt
+How-To-Github|master⚡ ⇒ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   a_file_to_push.txt
+
+How-To-Github|master⚡ ⇒
+```
+
+#### Note - You need to `git add` every file you would like to become part of a repository.
 
 
 
