@@ -80,7 +80,7 @@ When you log in to GitHub, click on the disclosure icon neat your profile pictur
 6. Click **Create Repository**
 7. Click on **Clone or Download** and click to copy the web URL.
 
-For Example *https://github.com/NetDevNotes/How-To-Github.git*
+For Example > *https://github.com/NetDevNotes/How-To-Github.git*
 
 
 
