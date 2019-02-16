@@ -6,36 +6,38 @@
 
 ## Background
 
-Git simplified collaborating on projects by giving team members the ability to work on files offline, and easily merge changes with the master branch of a project. 
+The invention of Git simplified collaborating on projects by giving team members the ability to work on files offline and easily merge changes with the master project files. 
 
-This allowed multiple people to work on the same files at the same time, any suggested changes can be reviewed, before being pushed into the master branch. 
+This allowed multiple people to work on the same files at the same time, and changes can be reviewed before being pushed into the master branch. 
 
-Git repositories (storage locations) could be saved locally on ones computer, or on a central server and shared amongst teams within an organisation.
+Git repositories were saved locally on a computer, or on a central server and shared amongst teams within an organisation.
 
-Git doesn't care about what the contents of a file is, or its file type, it only cares about the differences between different versions of the same file, so it can keep track of them.  
+Regarding file types, Git doesn't care about what the contents of a file is, or its file type, it only cares about the differences between different versions of the same file, so it can keep track of them.  
 
-So Git is not just for code development, its for tracking and collaboration of any type of file, from a simple How To document to complex architectural drawings. 
+So Git is not just for code development, its for tracking and collaboration of any type of file, from a simple How To document to complex architectural drawings, or even [How To's](https://github.com/NetDevNotes/How-To-Github/blob/master/README.md) :smile:
 
 ## Why GitHub?
 
-**GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to collaborate. Changes can be created in their own branches, and merged into the master version when reviewed and approved. And of course we dont need to manage servers, storage, backups or the app.  There is also a very large community, so there is a lot of inspiration and support.
+**GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to work on the same files. Changes can be created in their own branches, and merged into the master version when reviewed and approved. 
 
-Nowadays, Git is synonymous with GitHub. 
+And of course we dont need to manage servers, storage, backups or the app.  There is also a very large community, so there is a lot of inspiration and support.
+
+Git is now synonymous with GitHub.
 
 ## Types of GitHub
 
 Acc Type | Differences
 ------------|---------------------------------------------
-GitHub Free | Less granular permissions and features.
-GitHub Enterprise | More granular permissions and features, advanced reviewing.
+GitHub Free | Less granular permissions and features. But pretty cheap!
+GitHub Enterprise | More granular permissions and features, multiple approvers, advanced tools and insights.
 
 ## How to Access & Manage Git Repositories
 
 There are 3 ways to access Git when collaborating, creating or managing files and repositories: 
 
-* Via command line
-* Via a browser at [github.com](https://github.com) 
-* Via the [PC/MAC app](https://desktop.github.com/)
+* Command line (CLI)
+* WebUI [github.com](https://github.com) 
+* The [PC/MAC app](https://desktop.github.com/)
 
 All 3 do a similar thing.  Generally speaking you will use a combination of the CLI and webUI.  You will need to go to the website to create the repository and obtain its unique URL, then usually will use the command line to manage the repository and files. Becoming familiar with the Command Line and Browser is essential, the app is not.
 
@@ -52,15 +54,15 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 
 ## Parlance
 
-Git | Explanation
+Git Parlance | Layman Terms
 ------------|---------------------------------------------
 repository| A folder for files relating to a particular project.
 clone| Download a copy of a repository from GitHub to your local computer.
 commit| Save changes to files into a staging before pushing back to GitHub.
 push | Synchronise the changes from the staging area to GitHub.
-pull | Pull requests let you tell others about changes you've pushed to a branch.
+pull | Pull requests tell others about changes to be pushed to a branch.
 branch | Used to isolate development work without affecting other branches in the repository.
-merge | Merge a branch into the master file(s)
+merge | Merge a sub branch into the master branch
 
 ## Armed with Info!
 
@@ -92,9 +94,11 @@ Now we have created our GitHub account we need to install Git on our local compu
 
 Download and install from [Git](https://git-scm.com/)
 
-You can if you like also install the Desktop App, but at this stage lets not worry about that.  The Desktop app also installs Git command line tools, but in a slightly different way, so lets keep it old-skool and use the above link.
+You can if you like also install the Desktop App, but at this stage lets not worry about that.  The Desktop app also installs Git command line tools, but in a slightly different way, so lets keep it oldskool and use the above link.
 
 #### Note - I dont want to go into details on installation as it would make this article even larger and there are plenty of articles online to help.
+
+#### The terminal I am using is ZSH with the GIT plugin, so you will see my terminal is telling me I am in a master GIT repository, I hope this doesnt confuse.  Blame @asainsbury for showing me cool stuff :raised_hands:
 
 ## Setup Git
 
@@ -120,11 +124,11 @@ scripts|master⚡ ⇒ git config --global user.email
 nico@nwten.net
 ```
 
-5. If this hasnt been done automatically, we need to check that we have [Set Commit Email Address on GitHub](https://help.github.com/articles/setting-your-commit-email-address-on-github/)
+5. If this hasn't been done automatically, we need to check that we have [Set Commit Email Address on GitHub](https://help.github.com/articles/setting-your-commit-email-address-on-github/)
 
 ## At Last!  Clone the repository
 
-So we created the repositoty in the GitHub cloud, setup our local copy of Git and now we would like to download a copy of the files located in HitHub down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
+So we created the repository in the GitHub cloud, setup our local copy of Git and now we would like to download a copy of the files located in HitHub down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
 
 #### Note - As you can see from my path below, I am working in my home directory under a /scrips folder I created:
 
@@ -259,9 +263,9 @@ Branches can be used to:
 Create a new branch `git branch branch001`
 Enter the branch `git checkout branch001`
 
-I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emojicon, then I perform a `git status` to see what Git thinks about the edit.
+I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emoticon, then I perform a `git status` to see what Git thinks about the edit.
 
-Notice Git has recognised the new README.bak file and has also noticed that README.md has been moified.
+Notice Git has recognised the new README.bak file and has also noticed that README.md has been modified.
 
 ```
 How-To-Github|master ⇒ cp README.md README.bak
@@ -294,8 +298,8 @@ Untracked files:
 
 The `-a` switch will commit all changed files
 ```
-How-To-Github|branch001⚡ ⇒ git commit -a -m "added coffee emojicon"
-[branch001 a5fb788] added coffee emojicon
+How-To-Github|branch001⚡ ⇒ git commit -a -m "added coffee emoticon"
+[branch001 a5fb788] added coffee emoticon
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
@@ -317,7 +321,7 @@ To https://github.com/NetDevNotes/How-To-Github.git
 
 ## Success! If you browse to your GitHub repository page in a browser, you will see the edited README.md file within branch001.
 
-## Merge our developement branch with the master branch
+## Merge our development branch with the master branch
 
 Jump back over to the master branch `git checkout master`
 ```
@@ -345,7 +349,7 @@ You can see below he * (aka HEAD) is on the master branch and that branch001 has
 
 ## Verify further by opening the file and viewing the change
 
-Yep, the coffee emojicon is present
+Yep, the coffee emoticon is present
 
 `How-To-Github|master⚡ ⇒ vi README.md`
 ```
@@ -354,3 +358,34 @@ Yep, the coffee emojicon is present
 > **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005.
 ```
 
+# Push from the local repository to GitHub
+```
+How-To-Github|master⚡ ⇒ git push
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 1.34 KiB | 1.34 MiB/s, done.
+Total 12 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/NetDevNotes/How-To-Github.git
+   cc9004c..0661100  master -> master
+   ```
+
+## Success Again! If you browse to your GitHub repository page in a browser, you will see the edited README.md file :coffee: within the master branch.
+
+## Clean up
+
+Lastly, lets delete the development branch as we dont need it anymore as the changes have been merged with the master.
+```
+How-To-Github|master⚡ ⇒ git branch -d branch001
+Deleted branch branch001 (was 966f619).
+```
+
+## Final note on Markdown
+
+You will have noticed the README.md file that GitHub automatically creates for us when we create a new repository (and tick that box) is made in Markdown.  At first I was a bit reluctant to learn something else, but this one is easy to work with.  Just play with a few lines in your README.md, you'll soon enjoy it I promise, [heres a good article](https://guides.github.com/features/mastering-markdown/) to easily get you going.
+
+## The End - For now
+
+I expect I will need to make many edits to this article, let me know how you get on, your feedback is appreciated.
