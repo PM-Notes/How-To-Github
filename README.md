@@ -254,3 +254,17 @@ Branches can be used to:
 * Fix bugs
 * Safely experiment with new ideas
 
+## Edit a file and create a new branch
+
+Below I open up this document (README.md) and add a coffee emojicon, then I perform a `git status` to see what Git thinks about the edit.  I quickly backed up my file before hand:
+```
+How-To-Github|master ⇒ cp README.md README.bak
+How-To-Github|master⚡ ⇒ ls
+README.bak         README.md          a_file_to_push.txt
+How-To-Github|master⚡ ⇒ vi README.md
+# How-To-Github :coffee:
+> **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005.
+```
+
+
+
