@@ -45,7 +45,8 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 
 * Create a GitHub.com account
 * Create a repository in the GitHub.com WebUI
-* From Cli, clone the repository so the folder and file is downloaded to our computer.
+* Install Git
+* From ClI, clone the repository so the folder and file is downloaded to our computer.
 * Edit the README.md [markdown](https://guides.github.com/features/mastering-markdown/) file that was automatically created with the new repository, then synchronise (push) the changes back to GitHub.com
 * Create a new file and synchronise changes back to GitHub.com
 
@@ -92,7 +93,11 @@ Download and install from [Git](https://git-scm.com/)
 
 You can if you like also install the Desktop App, but at this stage lets not worry about that.  The Desktop app also installs Git command line tools, but in a slightly different way, so lets keep it old-skool and use the above link.
 
-#### I dont want to go into details on installation as it would make this article even larger and there is plenty of articles online to help with installation.
+#### Note - I dont want to go into details on installation as it would make this article even larger and there are plenty of articles online to help.
+
+## At Last!  Clone the repository
+
+So we created the repositoty in the GitHub cloud, now we would like to pull a copy (clone) of the files down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
 
 
 
