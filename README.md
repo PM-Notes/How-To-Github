@@ -369,3 +369,15 @@ To https://github.com/NetDevNotes/How-To-Github.git
    ```
 
 ## Success Again! If you browse to your GitHub repository page in a browser, you will see the edited README.md file :coffee: within the master branch.
+
+## Clean up
+
+Lastly, lets delete the development branch as we dont need it anymore as the changes have been merged with the master.
+```
+How-To-Github|master⚡ ⇒ git branch -d branch001
+Deleted branch branch001 (was 966f619).
+```
+
+## The End - For now
+
+I expect I will need to make many edits to this artice, let me know how you get on, your feedback is apprecited.
