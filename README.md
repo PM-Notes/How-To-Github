@@ -99,19 +99,19 @@ You can if you like also install the Desktop App, but at this stage lets not wor
 
 So we created the repositoty in the GitHub cloud, now we would like to pull a copy (clone) of the files down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+'''
+scripts|master⚡ ⇒ pwd
+/Users/nico/scripts
+scripts|master⚡ ⇒ git clone https://github.com/NetDevNotes/How-To-Github.git
+Cloning into 'How-To-Github'...
+remote: Enumerating objects: 147, done.
+remote: Counting objects: 100% (147/147), done.
+remote: Compressing objects: 100% (108/108), done.
+remote: Total 147 (delta 46), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (147/147), 32.81 KiB | 129.00 KiB/s, done.
+Resolving deltas: 100% (46/46), done.
+scripts|master⚡ ⇒
+'''
 
 
 
