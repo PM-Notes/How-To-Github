@@ -119,15 +119,19 @@ scripts|master⚡ ⇒ git config --global user.email
 nico@nwten.net
 ```
 
-5. If this hasnnt been done automatically, we need to [Set Commit Email Address on GitHub](https://help.github.com/articles/setting-your-commit-email-address-on-github/)
+5. If this hasnt been done automatically, we need to check that we have [Set Commit Email Address on GitHub](https://help.github.com/articles/setting-your-commit-email-address-on-github/)
 
 ## At Last!  Clone the repository
 
-So we created the repositoty in the GitHub cloud, now we would like to pull a copy (clone) of the files down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
+So we created the repositoty in the GitHub cloud, setup our local copy of Git and now we would like to download a copy of the files located in HitHub down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
+
+#### Note - As you can see from my path below, I am working in my home directory under a /scrips folder I created:
 
 ```
 scripts|master⚡ ⇒ pwd
 /Users/nico/scripts
+```
+```
 scripts|master⚡ ⇒ git clone https://github.com/NetDevNotes/How-To-Github.git
 Cloning into 'How-To-Github'...
 remote: Enumerating objects: 147, done.
@@ -136,7 +140,6 @@ remote: Compressing objects: 100% (108/108), done.
 remote: Total 147 (delta 46), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (147/147), 32.81 KiB | 129.00 KiB/s, done.
 Resolving deltas: 100% (46/46), done.
-scripts|master⚡ ⇒
 ```
 
 
