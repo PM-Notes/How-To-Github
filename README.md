@@ -386,4 +386,4 @@ You will have noticed the README.md file that GitHub automatically creates for u
 
 ## The End - For now
 
-I expect I will need to make many edits to this article, let me know how you get on, your feedback is appreciated.
+I will need to make edits to this article, let me know how you get on, your feedback is appreciated.
