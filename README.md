@@ -333,3 +333,9 @@ Merge made by the 'recursive' strategy.
  1 file changed, 2 insertions(+), 2 deletions(-)
  ```
 
+## Verify the merge
+`How-To-Github|master⚡ ⇒ git branch --merge`
+```
+  branch001
+* master
+```
