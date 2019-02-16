@@ -254,9 +254,12 @@ Branches can be used to:
 * Fix bugs
 * Safely experiment with new ideas
 
-## Edit a file and create a new branch
+## Create a new branch and edit a file
 
-Below I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emojicon, then I perform a `git status` to see what Git thinks about the edit.
+Create a new branch `git branch branch001`
+Enter the branch `git checkout branch001`
+
+I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emojicon, then I perform a `git status` to see what Git thinks about the edit.
 
 Notice Git has recognised the new README.bak file and has also noticed that README.md has been moified.
 
@@ -286,6 +289,38 @@ Untracked files:
 
 	README.bak
 ```
+
+## Commit the changes
+
+The `-a` switch will commit all changed files
+```
+How-To-Github|branch001⚡ ⇒ git commit -a -m "added coffee emojicon"
+[branch001 a5fb788] added coffee emojicon
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
+## Push the changes to GitHub
+
+This push will send the changes to the development branch (branch001), not the master branch:
+```
+How-To-Github|branch001⚡ ⇒ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 314 bytes | 314.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/NetDevNotes/How-To-Github.git
+   9e4b80a..a5fb788  branch001 -> branch001
+```
+
+## Success! If you browse to your GitHub repository page in a browser, you will see the edited README.md file within branch001.
+
+## Merge our developement branch with the master branch
+
+Jump back over to the master branch `git checkout master`
+
 
 
 
