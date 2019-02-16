@@ -256,15 +256,32 @@ Branches can be used to:
 
 ## Edit a file and create a new branch
 
-Below I open up this document (README.md) and add a coffee emojicon, then I perform a `git status` to see what Git thinks about the edit.  I quickly backed up my file before hand:
+Below I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emojicon, then I perform a `git status` to see what Git thinks about the edit:
 ```
 How-To-Github|master ⇒ cp README.md README.bak
 How-To-Github|master⚡ ⇒ ls
 README.bak         README.md          a_file_to_push.txt
+```
+```
 How-To-Github|master⚡ ⇒ vi README.md
 # How-To-Github :coffee:
 > **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005.
 ```
+```
+How-To-Github|master⚡ ⇒ git status
+On branch master
+Your branch is up to date with 'origin/master'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	README.bak
+```
 
 
