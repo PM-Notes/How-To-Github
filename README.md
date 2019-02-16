@@ -325,6 +325,11 @@ How-To-Github|master⚡ ⇒ git checkout master
 Already on 'master'
 Your branch is up to date with 'origin/master'.
 ```
-
-
+```
+How-To-Github|master⚡ ⇒ git merge branch001 master -m "merge branch001 with master branch"
+Auto-merging README.md
+Merge made by the 'recursive' strategy.
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ ```
 
