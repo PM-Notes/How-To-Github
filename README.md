@@ -1,4 +1,4 @@
-# How-To-Github :coffee: :smile:
+# How-To-Github :coffee: :smile: :dancer:
 
 > **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005. 
 
