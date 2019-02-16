@@ -92,7 +92,7 @@ Now we have created our GitHub account we need to install Git on our local compu
 
 Download and install from [Git](https://git-scm.com/)
 
-You can if you like also install the Desktop App, but at this stage lets not worry about that.  The Desktop app also installs Git command line tools, but in a slightly different way, so lets keep it old-skool and use the above link.
+You can if you like also install the Desktop App, but at this stage lets not worry about that.  The Desktop app also installs Git command line tools, but in a slightly different way, so lets keep it oldskool and use the above link.
 
 #### Note - I dont want to go into details on installation as it would make this article even larger and there are plenty of articles online to help.
 
@@ -120,11 +120,11 @@ scripts|master⚡ ⇒ git config --global user.email
 nico@nwten.net
 ```
 
-5. If this hasnt been done automatically, we need to check that we have [Set Commit Email Address on GitHub](https://help.github.com/articles/setting-your-commit-email-address-on-github/)
+5. If this hasn't been done automatically, we need to check that we have [Set Commit Email Address on GitHub](https://help.github.com/articles/setting-your-commit-email-address-on-github/)
 
 ## At Last!  Clone the repository
 
-So we created the repositoty in the GitHub cloud, setup our local copy of Git and now we would like to download a copy of the files located in HitHub down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
+So we created the repository in the GitHub cloud, setup our local copy of Git and now we would like to download a copy of the files located in HitHub down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
 
 #### Note - As you can see from my path below, I am working in my home directory under a /scrips folder I created:
 
@@ -259,9 +259,9 @@ Branches can be used to:
 Create a new branch `git branch branch001`
 Enter the branch `git checkout branch001`
 
-I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emojicon, then I perform a `git status` to see what Git thinks about the edit.
+I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emoticon, then I perform a `git status` to see what Git thinks about the edit.
 
-Notice Git has recognised the new README.bak file and has also noticed that README.md has been moified.
+Notice Git has recognised the new README.bak file and has also noticed that README.md has been modified.
 
 ```
 How-To-Github|master ⇒ cp README.md README.bak
@@ -294,8 +294,8 @@ Untracked files:
 
 The `-a` switch will commit all changed files
 ```
-How-To-Github|branch001⚡ ⇒ git commit -a -m "added coffee emojicon"
-[branch001 a5fb788] added coffee emojicon
+How-To-Github|branch001⚡ ⇒ git commit -a -m "added coffee emoticon"
+[branch001 a5fb788] added coffee emoticon
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
@@ -317,7 +317,7 @@ To https://github.com/NetDevNotes/How-To-Github.git
 
 ## Success! If you browse to your GitHub repository page in a browser, you will see the edited README.md file within branch001.
 
-## Merge our developement branch with the master branch
+## Merge our development branch with the master branch
 
 Jump back over to the master branch `git checkout master`
 ```
@@ -345,7 +345,7 @@ You can see below he * (aka HEAD) is on the master branch and that branch001 has
 
 ## Verify further by opening the file and viewing the change
 
-Yep, the coffee emojicon is present
+Yep, the coffee emoticon is present
 
 `How-To-Github|master⚡ ⇒ vi README.md`
 ```
@@ -380,4 +380,4 @@ Deleted branch branch001 (was 966f619).
 
 ## The End - For now
 
-I expect I will need to make many edits to this artice, let me know how you get on, your feedback is apprecited.
+I expect I will need to make many edits to this article, let me know how you get on, your feedback is appreciated.
