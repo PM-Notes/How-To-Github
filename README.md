@@ -334,6 +334,9 @@ Merge made by the 'recursive' strategy.
  ```
 
 ## Verify the merge
+
+You can see below he * (aka HEAD) is on the master branch and that branch001 has been merged into it.  So if we like, branch001 can be deleted.
+
 `How-To-Github|master⚡ ⇒ git branch --merge`
 ```
   branch001
