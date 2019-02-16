@@ -256,7 +256,10 @@ Branches can be used to:
 
 ## Edit a file and create a new branch
 
-Below I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emojicon, then I perform a `git status` to see what Git thinks about the edit:
+Below I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emojicon, then I perform a `git status` to see what Git thinks about the edit.
+
+Notice Git has recognised the new README.bak file and has also noticed that README.md has been moified.
+
 ```
 How-To-Github|master ⇒ cp README.md README.bak
 How-To-Github|master⚡ ⇒ ls
@@ -283,5 +286,7 @@ Untracked files:
 
 	README.bak
 ```
+
+
 
 
