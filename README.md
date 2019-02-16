@@ -382,7 +382,7 @@ Deleted branch branch001 (was 966f619).
 
 ## Final note on Markdown
 
-You will have noticed the README.md file that GitHub automatically creates for us when we create a new repository (and tick that box) is made in Markdown.  At first I was a bit reluctant to take on more reading, but this one is easy and a pleasure to work with.  Just play with a few lines ina README.md, play with a few formatiingn features, add some imojicons and you'll soon enjoy it, [heres a good starting article, all you need really:](https://guides.github.com/features/mastering-markdown/)
+You will have noticed the README.md file that GitHub automatically creates for us when we create a new repository (and tick that box) is made in Markdown.  At first I was a bit reluctant to learn something else, but this one is easy to work with.  Just play with a few lines in your README.md, you'll soon enjoy it I promise, [heres a good starting article, all you need really:](https://guides.github.com/features/mastering-markdown/)
 
 ## The End - For now
 
