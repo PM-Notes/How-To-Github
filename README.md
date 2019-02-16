@@ -70,7 +70,7 @@ Create a GitHub account so that you can create and manage repositories.  With an
 
 [Sign up for Github](https://github.com)
 
-When you log in to GitHub, click on the Profile Pictures disclosure icon and select **Your Repositories**
+When you log in to GitHub, click on the disclosure icon neat your profile picture (top right) and select **Your Repositories**
 
 1. To create a repository, click on **New**
 2. Enter a repository name (or use the suggestion shown!) and optionally enter a description.
