@@ -142,5 +142,30 @@ Receiving objects: 100% (147/147), 32.81 KiB | 129.00 KiB/s, done.
 Resolving deltas: 100% (46/46), done.
 ```
 
+# Confirm the repository was downlaoded:
+
+```
+scripts|master⚡ ⇒ ls -la | grep How-To-Github
+drwxr-xr-x   5 nico  staff   170 16 Feb 15:06 How-To-Github
+```
+
+# Change to the new repository folder 
+
+At this stage there is the folder, the .git folder and the README.md. But we have successfully cloned the repo **smile**
+
+```
+scripts|master⚡ ⇒ cd How-To-Github
+How-To-Github|master ⇒ ls -la
+drwxr-xr-x   5 nico  staff   170 16 Feb 15:06 .
+drwxr-xr-x   9 nico  staff   306 16 Feb 15:06 ..
+drwxr-xr-x  13 nico  staff   442 16 Feb 15:43 .git
+-rw-r--r--   1 nico  staff  5757 16 Feb 15:06 README.md
+How-To-Github|master ⇒ pwd
+/Users/nico/scripts/How-To-Github
+```
+
+
+
+
 
 
