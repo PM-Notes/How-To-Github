@@ -58,6 +58,7 @@ repository| A folder for files relating to a particular project.
 clone| Download a copy of a repository from GitHub to your local computer.
 commit| Save changes to files into a staging before pushing back to GitHub.
 push | Synchronise the changes from the staging area to GitHub.
+pull | Pull requests let you tell others about changes you've pushed to a branch.
 branch | Used to isolate development work without affecting other branches in the repository.
 merge | Merge a branch into the master file(s)
 
@@ -245,7 +246,7 @@ How-To-Github|master ⇒
 
 When you dont want to commit changes directly to the master files, we can isolate development by creating a branch. A repository has one master branch and can have any number of other branches.  
 
-Branches can be reviewed by other team members before pushing to the master branch.  Comments can be made on each change once all reveiwers are happy the branch can be pushed to GitHub and kepts in its own branch, or merged with the master usig a pull request. 
+Branches can be reviewed by other team members by creating a pull request, comments can be made between team members, then after the review we can push the changes to the master branch in GitHub.  The new changes can be uploaded its own branch, or merged with the master branch. 
 
 Branches can be used to:
 
