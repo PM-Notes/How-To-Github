@@ -58,11 +58,11 @@ Git Parlance | Layman Terms
 ------------|---------------------------------------------
 repository| A folder for files relating to a particular project.
 clone| Download a copy of a repository from GitHub to your local computer.
-commit| Save changes to files into a staging before pushing back to GitHub.
+commit| Save changes to files into the staging area before pushing back to GitHub.
 push | Synchronise the changes from the staging area to GitHub.
 pull | Pull requests tell others about changes to be pushed to a branch.
 branch | Used to isolate development work without affecting other branches in the repository.
-merge | Merge a sub branch into the master branch
+merge | Merge a sub branch into the master branch, or other branches.
 
 ## Armed with Info
 
