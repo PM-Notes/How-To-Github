@@ -51,7 +51,7 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 
 ## Parlance
 
-Git | Explaination
+Git | Explanation
 ------------|---------------------------------------------
 repository| A folder for files relating to a particular project.
 clone| Download a copy of a repository from GitHub to your local computer.
@@ -84,7 +84,20 @@ For Example: *https://github.com/NetDevNotes/How-To-Github.git*
 
 ## Now for some CLI action!
 
-Now we have created our GitHub account we need to install Git on our local computer, configure Git with our new account details and password, then clone the repository which is currenly only in GitHub and houses onmly a single README.md file in it.  The README.md that was created in step 4 above.
+Now we have created our GitHub account we need to install Git on our local computer, configure Git with our new account details and password, then clone the repository which is currently only in GitHub and houses only a single README.md file in it.  The README.md that was created in step 4 above.
+
+### Install Git
+
+Download and install from [Git](https://git-scm.com/)
+
+You can if you like also install the Desktop App, but at this stage lets not worry about that.  The Desktop app also installs Git command line tools, but in a slightly different way, so lets keep it old-skool and use the above link.
+
+#### I dont want to go into details on installation as it would make this article even larger and there is plenty of articles online to help with installation.
+
+
+
+
+
 
 
 
