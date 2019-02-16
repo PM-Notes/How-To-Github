@@ -354,3 +354,18 @@ Yep, the coffee emojicon is present
 > **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005.
 ```
 
+# Push from the local repository to GitHub
+```
+How-To-Github|master⚡ ⇒ git push
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 1.34 KiB | 1.34 MiB/s, done.
+Total 12 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/NetDevNotes/How-To-Github.git
+   cc9004c..0661100  master -> master
+   ```
+
+## Success Again! If you browse to your GitHub repository page in a browser, you will see the edited README.md file :coffee: within the master branch.
