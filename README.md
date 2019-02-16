@@ -2,7 +2,7 @@
 
 > **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005. 
 
-> **GitHub** was crated in 2008 and is simply an online storage specifically for Git repositories.
+> **GitHub** was crated in 2008 and is simply an web-based hosting service specifically for Git repositories.
 
 ## Background
 
