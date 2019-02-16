@@ -241,5 +241,7 @@ How-To-Github|master ⇒
 
 ```
 
+# Success! If you browse to your GitHub repository page in a browser, you will see the new text file.
+
 
 
