@@ -80,7 +80,12 @@ When you log in to GitHub, click on the disclosure icon neat your profile pictur
 6. Click **Create Repository**
 7. Click on **Clone or Download** and click to copy the web URL.
 
-For Example > *https://github.com/NetDevNotes/How-To-Github.git*
+For Example: *https://github.com/NetDevNotes/How-To-Github.git*
+
+## Now for some CLI action!
+
+Now we have created our GitHub account we need to install Git on our local computer, configure Git with our new account details and password, then clone the repository which is currenly only in GitHub and houses onmly a single README.md file in it.  The README.md that was created in step 4 above.
+
 
 
 
