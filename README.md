@@ -320,8 +320,11 @@ To https://github.com/NetDevNotes/How-To-Github.git
 ## Merge our developement branch with the master branch
 
 Jump back over to the master branch `git checkout master`
-
-
+```
+How-To-Github|master⚡ ⇒ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+```
 
 
 
