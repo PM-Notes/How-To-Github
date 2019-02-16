@@ -95,6 +95,24 @@ You can if you like also install the Desktop App, but at this stage lets not wor
 
 #### Note - I dont want to go into details on installation as it would make this article even larger and there are plenty of articles online to help.
 
+## Setup Git
+
+Once installed, we need to link our local Git to GitHub:
+
+1. Open Terminal (or zSH!)
+2. Set your Git username (this is a global setting, and can be done on a per folder basis also)
+
+`scripts|master⚡ ⇒ git config --global user.name "NetDevNotes"`
+
+3. Confirm username is set:
+
+```
+scripts|master⚡ ⇒ git config --global user.name
+NetDevNotes
+```
+
+
+
 ## At Last!  Clone the repository
 
 So we created the repositoty in the GitHub cloud, now we would like to pull a copy (clone) of the files down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
