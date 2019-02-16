@@ -49,8 +49,8 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 * Create a repository in the GitHub.com WebUI
 * Install Git
 * From ClI, clone the repository so the folder and file is downloaded to our computer.
-* Edit the README.md [markdown](https://guides.github.com/features/mastering-markdown/) file that was automatically created with the new repository, then synchronise (push) the changes back to GitHub.com
 * Create a new file and synchronise changes back to GitHub.com
+* Edit the README.md [markdown](https://guides.github.com/features/mastering-markdown/) file that was automatically created with the new repository, then synchronise (push) the changes back to GitHub.com
 
 ## Parlance
 
@@ -64,7 +64,7 @@ pull | Pull requests tell others about changes to be pushed to a branch.
 branch | Used to isolate development work without affecting other branches in the repository.
 merge | Merge a sub branch into the master branch
 
-## Armed with Info!
+## Armed with Info
 
 Now we should have a reasonable understanding on Git, so its probably a good time to put some of this into practice.
 
@@ -96,9 +96,9 @@ Download and install from [Git](https://git-scm.com/)
 
 You can if you like also install the Desktop App, but at this stage lets not worry about that.  The Desktop app also installs Git command line tools, but in a slightly different way, so lets keep it oldskool and use the above link.
 
-#### Note - I dont want to go into details on installation as it would make this article even larger and there are plenty of articles online to help.
+##### Note - I dont want to go into details on installation as it would make this article even larger and there are plenty of articles online to help.
 
-#### The terminal I am using is ZSH with the GIT plugin, so you will see my terminal is telling me I am in a master GIT repository, I hope this doesnt confuse.  Blame @asainsbury for showing me cool stuff :raised_hands:
+##### The terminal I am using is ZSH with the GIT plugin, so you will see my terminal is telling me I am in a master GIT repository, I hope this doesnt confuse.  Blame @asainsbury for showing me cool stuff :raised_hands:
 
 ## Setup Git
 
@@ -115,7 +115,6 @@ Once installed, we need to link our local Git to GitHub:
 scripts|master⚡ ⇒ git config --global user.name
 NetDevNotes
 ```
-
 4. Set your commit email address: 
 
 ```
@@ -123,14 +122,15 @@ scripts|master⚡ ⇒ git config --global user.email "nico@nwten.net"
 scripts|master⚡ ⇒ git config --global user.email
 nico@nwten.net
 ```
-
 5. If this hasn't been done automatically, we need to check that we have [Set Commit Email Address on GitHub](https://help.github.com/articles/setting-your-commit-email-address-on-github/)
 
 ## At Last!  Clone the repository
 
 So we created the repository in the GitHub cloud, setup our local copy of Git and now we would like to download a copy of the files located in HitHub down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
 
-#### Note - As you can see from my path below, I am working in my home directory under a /scrips folder I created:
+#### Note - As you can see from my path below, I am working in my home directory under a /scrips folder I created.  
+
+You will need to past in your repository web URL from the earlier step, below I used How-To-Github.git
 
 ```
 scripts|master⚡ ⇒ pwd
@@ -146,14 +146,12 @@ remote: Total 147 (delta 46), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (147/147), 32.81 KiB | 129.00 KiB/s, done.
 Resolving deltas: 100% (46/46), done.
 ```
-
 ## Confirm the repository was downloaded:
 
 ```
 scripts|master⚡ ⇒ ls -la | grep How-To-Github
 drwxr-xr-x   5 nico  staff   170 16 Feb 15:06 How-To-Github
 ```
-
 ## Change to the new repository folder 
 
 At this stage there is the folder, the .git folder and the README.md. But we have successfully cloned the repo :smile:
