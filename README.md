@@ -72,17 +72,20 @@ Create a GitHub account so that you can create and manage repositories.  With an
 
 When you log in to GitHub, click on the Profile Pictures disclosure icon and select **Your Repositories**
 
-To create a repository, click on **New**
+1.To create a repository, click on **New**
+2. Enter a repository name (or use the suggestion shown!) and optionally enter a description.
+3. Set the repository to Public or Private.
+4. Tick **Initialize this repository with a README**
+5. Leave the two dropdown boxes as **none**
+6. Click **Create Repository**
+7. Click on **Clone or Download** and click to copy the web URL.
 
-Enter a repository name (or use the suggestion shown!) and optionally enter a description.
+For Example 'https://github.com/NetDevNotes/How-To-Github.git'
 
-Set the repository to Public or Private.
 
-Tick **Initialize this repository with a README**
 
-Leave the two dropdown boxes as **none**
 
-Click **Create Repository**
+
 
 
 
