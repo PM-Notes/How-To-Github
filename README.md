@@ -243,7 +243,13 @@ How-To-Github|master ⇒
 
 ## Success! If you browse to your GitHub repository page in a browser, you will see the new text file.
 
-When you dont want to commit changes directly to the master stream, we can create a branch.  Branches can be reviewed by other team members before pushing to the master.  Comments can be made on each change once all reveiwers are happy the branch can be pushed to GitHub and kepts in its own branch, or merged with the master.  Or merged with any other branch for that matter.
+When you dont want to commit changes directly to the master files, we can isolate development by creating a branch. A repository has one master branch and can have any number of other branches.  
 
+Branches can be reviewed by other team members before pushing to the master branch.  Comments can be made on each change once all reveiwers are happy the branch can be pushed to GitHub and kepts in its own branch, or merged with the master usig a pull request. 
 
+Branches can be used to:
+
+* Develop features
+* Fix bugs
+* Safely experiment with new ideas
 
