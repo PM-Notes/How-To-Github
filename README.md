@@ -151,7 +151,7 @@ drwxr-xr-x   5 nico  staff   170 16 Feb 15:06 How-To-Github
 
 # Change to the new repository folder 
 
-At this stage there is the folder, the .git folder and the README.md. But we have successfully cloned the repo **smile**
+At this stage there is the folder, the .git folder and the README.md. But we have successfully cloned the repo :smile:
 
 ```
 scripts|master⚡ ⇒ cd How-To-Github
