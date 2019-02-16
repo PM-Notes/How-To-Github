@@ -325,6 +325,32 @@ How-To-Github|master⚡ ⇒ git checkout master
 Already on 'master'
 Your branch is up to date with 'origin/master'.
 ```
+```
+How-To-Github|master⚡ ⇒ git merge branch001 master -m "merge branch001 with master branch"
+Auto-merging README.md
+Merge made by the 'recursive' strategy.
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ ```
 
+## Verify the merge
 
+You can see below he * (aka HEAD) is on the master branch and that branch001 has been merged into it.  So if we like, branch001 can be deleted.
+
+`How-To-Github|master⚡ ⇒ git branch --merge`
+```
+  branch001
+* master
+```
+
+## Verify further by opening the file and viewing the change
+
+Yep, the coffee emojicon is present
+
+`How-To-Github|master⚡ ⇒ vi README.md`
+```
+# How-To-Github :coffee:
+
+> **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005.
+```
 
