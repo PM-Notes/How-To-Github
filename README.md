@@ -65,7 +65,7 @@ merge | Merge a branch into the master file(s)
 
 Now we should have a reasonable understanding on Git, so its probably a good time to put some of this into practice.
 
-### Create a Github Account
+## Create a Github Account
 
 Create a GitHub account so that you can create and manage repositories.  With an account you can also watch other peoples repositories for updates, and follow particular members who might inspire you:
 
@@ -87,7 +87,7 @@ For Example: *https://github.com/NetDevNotes/How-To-Github.git*
 
 Now we have created our GitHub account we need to install Git on our local computer, configure Git with our new account details and password, then clone the repository which is currently only in GitHub and houses only a single README.md file in it.  The README.md that was created in step 4 above.
 
-### Install Git
+## Install Git
 
 Download and install from [Git](https://git-scm.com/)
 
@@ -142,14 +142,14 @@ Receiving objects: 100% (147/147), 32.81 KiB | 129.00 KiB/s, done.
 Resolving deltas: 100% (46/46), done.
 ```
 
-# Confirm the repository was downlaoded:
+## Confirm the repository was downlaoded:
 
 ```
 scripts|master⚡ ⇒ ls -la | grep How-To-Github
 drwxr-xr-x   5 nico  staff   170 16 Feb 15:06 How-To-Github
 ```
 
-# Change to the new repository folder 
+## Change to the new repository folder 
 
 At this stage there is the folder, the .git folder and the README.md. But we have successfully cloned the repo :smile:
 
@@ -164,7 +164,7 @@ How-To-Github|master ⇒ pwd
 /Users/nico/scripts/How-To-Github
 ```
 
-# Create a file locally and upload (Push) to GitHub
+## Create a file locally and upload (Push) to GitHub
 ```
 How-To-Github|master⚡ ⇒ touch a_file_to_push.txt
 How-To-Github|master⚡ ⇒ ls -la
@@ -175,7 +175,7 @@ drwxr-xr-x  13 nico  staff   442 16 Feb 15:58 .git
 -rw-r--r--   1 nico  staff  5757 16 Feb 15:06 README.md
 -rw-r--r--   1 nico  staff     0 16 Feb 15:58 a_file_to_push.txt
 ```
-# Perform a git status to view what Git thinks about our new file
+## Perform a git status to view what Git thinks about our new file
 
 Notice Git is aware of the file but mentions its untracked:
 
@@ -191,7 +191,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 How-To-Github|master⚡ ⇒
 
-# Lets track (add) the file and perform a git status again
+## Lets track (add) the file and perform a git status again
 
 ```
 How-To-Github|master⚡ ⇒ git add a_file_to_push.txt
@@ -209,7 +209,7 @@ How-To-Github|master⚡ ⇒
 
 #### Note - You need to `git add` every file you would like to become part of a repository.
 
-# Commit to staging area before upload to GitHub
+## Commit to staging area before upload to GitHub
 
 Git has a conccept of a staging area, where files go before they are pushed to GitHub, we send files to the staging are by using the `git commit` command.
 
@@ -223,7 +223,7 @@ How-To-Github|master⚡ ⇒ git commit -m "adding text file to test push"
 How-To-Github|master ⇒
 ````
 
-# Git Push!
+## Git Push!
 
 Bare in mind the files are only in the staging are at this stage, lets now push to GitHub:
 
@@ -241,7 +241,9 @@ How-To-Github|master ⇒
 
 ```
 
-# Success! If you browse to your GitHub repository page in a browser, you will see the new text file.
+## Success! If you browse to your GitHub repository page in a browser, you will see the new text file.
+
+When you dont want to commit changes directly to the master stream, we can create a branch.  Branches can be reviewed by other team members before pushing to the master.  Comments can be made on each change once all reveiwers are happy the branch can be pushed to GitHub and kepts in its own branch, or merged with the master.  Or merged with any other branch for that matter.
 
 
 
