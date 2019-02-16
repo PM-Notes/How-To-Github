@@ -342,3 +342,15 @@ You can see below he * (aka HEAD) is on the master branch and that branch001 has
   branch001
 * master
 ```
+
+## Verify further by opening the file and viewing the change
+
+Yep, the coffee emojicon is present
+
+`How-To-Github|master⚡ ⇒ vi README.md`
+```
+# How-To-Github :coffee:
+
+> **Git** is a free and efficient open source version control system created by Linus Torvalds in 2005.
+```
+
