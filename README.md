@@ -128,7 +128,7 @@ nico@nwten.net
 
 So we created the repository in the GitHub cloud, setup our local copy of Git and now we would like to download a copy of the files located in HitHub down to our local PC.  This might be to view or to edit the files, and possibly send the edited files back up to GitHub for review or to merge into the master stream.
 
-#### Note - As you can see from my path below, I am working in my home directory under a /scrips folder I created.  
+##### Note - As you can see from my path below, I am working in my home directory under a /scrips folder I created.  
 
 You will need to past in your repository web URL from the earlier step, below I used How-To-Github.git
 
@@ -210,13 +210,13 @@ Changes to be committed:
 How-To-Github|master⚡ ⇒
 ```
 
-#### Note - You need to `git add` every file you would like to become part of a repository.
+##### Note - You need to `git add` every file you would like to become part of a repository.
 
 ## Commit to staging area before upload to GitHub
 
 Git has a concept of a staging area, where files go before they are pushed to GitHub, we send files to the staging are by using the `git commit` command.
 
-#### Note - You have to add a message with the -m switch with each commit.  Use useful messages.
+##### Note - You have to add a message with the -m switch with each commit.  Use useful messages.
 
 ````
 How-To-Github|master⚡ ⇒ git commit -m "adding text file to test push"
@@ -244,7 +244,7 @@ How-To-Github|master ⇒
 
 ```
 
-## Success! If you browse to your GitHub repository page in a browser, you will see the new text file.
+##### Success! If you browse to your GitHub repository page in a browser, you will see the new text file.
 
 When you dont want to commit changes directly to the master files, we can isolate development by creating a branch. A repository has one master branch and can have any number of other branches.  
 
@@ -317,7 +317,7 @@ To https://github.com/NetDevNotes/How-To-Github.git
    9e4b80a..a5fb788  branch001 -> branch001
 ```
 
-## Success! If you browse to your GitHub repository page in a browser, you will see the edited README.md file within branch001.
+##### Success! If you browse to your GitHub repository page in a browser, you will see the edited README.md file within branch001.
 
 ## Merge our development branch with the master branch
 
@@ -370,7 +370,7 @@ To https://github.com/NetDevNotes/How-To-Github.git
    cc9004c..0661100  master -> master
    ```
 
-## Success Again! If you browse to your GitHub repository page in a browser, you will see the edited README.md file :coffee: within the master branch.
+##### Success one last time! If you browse to your GitHub repository page in a browser, you will see the edited README.md file :coffee: within the master branch.
 
 ## Clean up
 
