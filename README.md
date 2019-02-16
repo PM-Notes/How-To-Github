@@ -117,10 +117,9 @@ NetDevNotes
 scripts|master⚡ ⇒ git config --global user.email "nico@nwten.net"
 scripts|master⚡ ⇒ git config --global user.email
 nico@nwten.net
-scripts|master⚡ ⇒
 ```
 
-5. 
+5. If this hasnnt been done automatically, we need to [Set Commit Email Address on GitHub](https://help.github.com/articles/setting-your-commit-email-address-on-github/)
 
 ## At Last!  Clone the repository
 
