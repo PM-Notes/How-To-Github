@@ -6,7 +6,7 @@
 
 ## Background
 
-The invention of Git simplified collaborating on projects by giving team members the ability to work on files offline and easily merge changes with the master project files. 
+Git simplified collaborating on projects by giving team members the ability to work on files offline and easily merge changes with the master project files. 
 
 This allowed multiple people to work on the same files at the same time, and changes can be reviewed before being pushed into the master branch. 
 
