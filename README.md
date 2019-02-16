@@ -211,7 +211,7 @@ How-To-Github|master⚡ ⇒
 
 # Commit to staging area before upload to GitHub
 
-Git has a conccept of a staging area, where files go before they are pushed to GitHub, we send files to the staging are by using the `git commit` command.  Y
+Git has a conccept of a staging area, where files go before they are pushed to GitHub, we send files to the staging are by using the `git commit` command.
 
 #### Note - You have to add a message with the -m switch with each commit.  Use useful messages.
 
@@ -223,7 +223,23 @@ How-To-Github|master⚡ ⇒ git commit -m "adding text file to test push"
 How-To-Github|master ⇒
 ````
 
+# Git Push!
 
+Bare in mind the files are only in the staging are at this stage, lets now push to GitHub:
+
+```
+How-To-Github|master ⇒ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 605 bytes | 605.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/NetDevNotes/How-To-Github.git
+   c47bbf5..bff82f7  master -> master
+How-To-Github|master ⇒
+
+```
 
 
 
