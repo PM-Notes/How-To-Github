@@ -66,7 +66,7 @@ merge | Merge a sub branch into the master branch
 
 ## Armed with Info
 
-Now we should have a reasonable understanding on Git, so its probably a good time to put some of this into practice.
+Now we should have a reasonable undersanding of Git, so its let's put some of this into practice.
 
 ## Create a Github Account
 
