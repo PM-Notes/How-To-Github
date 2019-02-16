@@ -244,7 +244,7 @@ How-To-Github|master ⇒
 
 ```
 
-:clap: ##### Success! If you browse to your GitHub repository page in a browser, you will see the new text file.
+##### :clap: Success! If you browse to your GitHub repository page in a browser, you will see the new text file.
 
 When you dont want to commit changes directly to the master files, we can isolate development by creating a branch. A repository has one master branch and can have any number of other branches.  
 
@@ -317,7 +317,7 @@ To https://github.com/NetDevNotes/How-To-Github.git
    9e4b80a..a5fb788  branch001 -> branch001
 ```
 
-:clap: ##### Success! If you browse to your GitHub repository page in a browser, you will see the edited README.md file within branch001.
+##### :clap: Success! If you browse to your GitHub repository page in a browser, you will see the edited README.md file within branch001.
 
 ## Merge our development branch with the master branch
 
@@ -370,7 +370,7 @@ To https://github.com/NetDevNotes/How-To-Github.git
    cc9004c..0661100  master -> master
    ```
 
-:clap: ##### Success one last time! If you browse to your GitHub repository page in a browser, you will see the edited README.md file :coffee: within the master branch.
+##### :clap: Success one last time! If you browse to your GitHub repository page in a browser, you will see the edited README.md file :coffee: within the master branch.
 
 ## Clean up
 
