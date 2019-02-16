@@ -100,7 +100,7 @@ You can if you like also install the Desktop App, but at this stage lets not wor
 Once installed, we need to link our local Git to GitHub:
 
 1. Open Terminal (or zSH!)
-2. Set your Git username (this is a global setting, and can be done on a per folder basis also)
+2. Set your Git username (this is a global setting, and username can be set on a per repository also)
 
 `scripts|master⚡ ⇒ git config --global user.name "NetDevNotes"`
 
@@ -111,7 +111,16 @@ scripts|master⚡ ⇒ git config --global user.name
 NetDevNotes
 ```
 
+4. Set your commit email address: 
 
+```
+scripts|master⚡ ⇒ git config --global user.email "nico@nwten.net"
+scripts|master⚡ ⇒ git config --global user.email
+nico@nwten.net
+scripts|master⚡ ⇒
+```
+
+5. 
 
 ## At Last!  Clone the repository
 
