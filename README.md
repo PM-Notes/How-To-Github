@@ -181,7 +181,7 @@ drwxr-xr-x  13 nico  staff   442 16 Feb 15:58 .git
 ## Perform a git status to view what Git thinks about our new file
 
 Notice Git is aware of the file but mentions its untracked:
-
+```
 How-To-Github|master⚡ ⇒ git status
 On branch master
 Your branch is up to date with 'origin/master'.
@@ -193,7 +193,7 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 How-To-Github|master⚡ ⇒
-
+```
 ## Lets track (add) the file and perform a git status again
 
 ```
