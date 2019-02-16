@@ -6,15 +6,15 @@
 
 ## Background
 
-Git simplified collaborating on projects by giving team members the ability to work on files offline, and easily merge changes with the master branch of a project. 
+The invention of Git simplified collaborating on projects by giving team members the ability to work on files offline and easily merge changes with the master project files. 
 
-This allowed multiple people to work on the same files at the same time, any suggested changes can be reviewed, before being pushed into the master branch. 
+This allowed multiple people to work on the same files at the same time, any suggested changes can be reviewed and discussed via comments, before being pushed into the master branch. 
 
-Git repositories (storage locations) could be saved locally on ones computer, or on a central server and shared amongst teams within an organisation.
+Git repositories were saved locally on ones computer, or on a central server and shared amongst teams within an organisation/network.
 
-Git doesn't care about what the contents of a file is, or its file type, it only cares about the differences between different versions of the same file, so it can keep track of them.  
+Regarding file types, Git doesn't care about what the contents of a file is, or its file type, it only cares about the differences between different versions of the same file, so it can keep track of them.  
 
-So Git is not just for code development, its for tracking and collaboration of any type of file, from a simple How To document to complex architectural drawings. 
+So Git is not just for code development, its for tracking and collaboration of any type of file, from a simple How To document to complex architectural drawings, or even How To's :smile:
 
 ## Why GitHub?
 
@@ -26,16 +26,16 @@ Nowadays, Git is synonymous with GitHub.
 
 Acc Type | Differences
 ------------|---------------------------------------------
-GitHub Free | Less granular permissions and features.
-GitHub Enterprise | More granular permissions and features, advanced reviewing.
+GitHub Free | Less granular permissions and features. But cheap!
+GitHub Enterprise | More granular permissions and features, advanced tools and insights.
 
 ## How to Access & Manage Git Repositories
 
 There are 3 ways to access Git when collaborating, creating or managing files and repositories: 
 
-* Via command line
-* Via a browser at [github.com](https://github.com) 
-* Via the [PC/MAC app](https://desktop.github.com/)
+* Command line (CLI)
+* WebUI [github.com](https://github.com) 
+* The [PC/MAC app](https://desktop.github.com/)
 
 All 3 do a similar thing.  Generally speaking you will use a combination of the CLI and webUI.  You will need to go to the website to create the repository and obtain its unique URL, then usually will use the command line to manage the repository and files. Becoming familiar with the Command Line and Browser is essential, the app is not.
 
@@ -52,15 +52,15 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 
 ## Parlance
 
-Git | Explanation
+Git Parlance | Layman Terms
 ------------|---------------------------------------------
 repository| A folder for files relating to a particular project.
 clone| Download a copy of a repository from GitHub to your local computer.
 commit| Save changes to files into a staging before pushing back to GitHub.
 push | Synchronise the changes from the staging area to GitHub.
-pull | Pull requests let you tell others about changes you've pushed to a branch.
+pull | Pull requests tell others about changes to be pushed to a branch.
 branch | Used to isolate development work without affecting other branches in the repository.
-merge | Merge a branch into the master file(s)
+merge | Merge a sub branch into the master branch
 
 ## Armed with Info!
 
