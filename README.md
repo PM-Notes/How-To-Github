@@ -143,7 +143,7 @@ Receiving objects: 100% (147/147), 32.81 KiB | 129.00 KiB/s, done.
 Resolving deltas: 100% (46/46), done.
 ```
 
-## Confirm the repository was downlaoded:
+## Confirm the repository was downloaded:
 
 ```
 scripts|master⚡ ⇒ ls -la | grep How-To-Github
@@ -212,7 +212,7 @@ How-To-Github|master⚡ ⇒
 
 ## Commit to staging area before upload to GitHub
 
-Git has a conccept of a staging area, where files go before they are pushed to GitHub, we send files to the staging are by using the `git commit` command.
+Git has a concept of a staging area, where files go before they are pushed to GitHub, we send files to the staging are by using the `git commit` command.
 
 #### Note - You have to add a message with the -m switch with each commit.  Use useful messages.
 
