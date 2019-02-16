@@ -209,6 +209,20 @@ How-To-Github|master⚡ ⇒
 
 #### Note - You need to `git add` every file you would like to become part of a repository.
 
+# Commit to staging area before upload to GitHub
+
+Git has a conccept of a staging area, where files go before they are pushed to GitHub, we send files to the staging are by using the `git commit` command.  Y
+
+#### Note - You have to add a message with the -m switch with each commit.  Use useful messages.
+
+````
+How-To-Github|master⚡ ⇒ git commit -m "adding text file to test push"
+[master 99e4232] adding text file to test push
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a_file_to_push.txt
+How-To-Github|master ⇒
+````
+
 
 
 
