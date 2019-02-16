@@ -60,5 +60,30 @@ push | Synchronise the changes from the staging area to GitHub.
 branch | Used to isolate development work without affecting other branches in the repository.
 merge | Merge a branch into the master file(s)
 
-## ..
+## Armed with Info!
+
+Now we should have a reasonable understnading on Git, so its probably a good time to put some of this into practice.
+
+### Create a Github Account
+
+Create a GitHub account so that you can create and manage repositories.  With an account you can also watch other peoples repositories for updates, and follow particular members who might inspire you:
+
+[Sign up for Github](https://github.com)
+
+When you log in to GitHub, click on the Profile Pictures disclosure icon and select **Your Repositories**
+
+To crete a repositiry, click on **New**
+
+Enter a repository name (or use the suggestion shown!) and optionally enter a description.
+
+Set the repositoyu to Public or Private.
+
+Tick **Initialize this repository with a README**
+
+Leave the two dropdown boxes as **none**
+
+Click **Create Repository**
+
+
+
 
