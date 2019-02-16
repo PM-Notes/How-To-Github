@@ -8,9 +8,9 @@
 
 The invention of Git simplified collaborating on projects by giving team members the ability to work on files offline and easily merge changes with the master project files. 
 
-This allowed multiple people to work on the same files at the same time, any suggested changes can be reviewed and discussed via comments, before being pushed into the master branch. 
+This allowed multiple people to work on the same files at the same time, and changes can be reviewed before being pushed into the master branch. 
 
-Git repositories were saved locally on ones computer, or on a central server and shared amongst teams within an organisation/network.
+Git repositories were saved locally on a computer, or on a central server and shared amongst teams within an organisation.
 
 Regarding file types, Git doesn't care about what the contents of a file is, or its file type, it only cares about the differences between different versions of the same file, so it can keep track of them.  
 
@@ -18,16 +18,18 @@ So Git is not just for code development, its for tracking and collaboration of a
 
 ## Why GitHub?
 
-**GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to collaborate. Changes can be created in their own branches, and merged into the master version when reviewed and approved. And of course we dont need to manage servers, storage, backups or the app.  There is also a very large community, so there is a lot of inspiration and support.
+**GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to work on the same files. Changes can be created in their own branches, and merged into the master version when reviewed and approved. 
 
-Nowadays, Git is synonymous with GitHub. 
+And of course we dont need to manage servers, storage, backups or the app.  There is also a very large community, so there is a lot of inspiration and support.
+
+Git is now synonymous with GitHub.
 
 ## Types of GitHub
 
 Acc Type | Differences
 ------------|---------------------------------------------
-GitHub Free | Less granular permissions and features. But cheap!
-GitHub Enterprise | More granular permissions and features, advanced tools and insights.
+GitHub Free | Less granular permissions and features. But cheap :smile:
+GitHub Enterprise | More granular permissions and features, multiple approvers, advanced tools and insights.
 
 ## How to Access & Manage Git Repositories
 
@@ -382,7 +384,7 @@ Deleted branch branch001 (was 966f619).
 
 ## Final note on Markdown
 
-You will have noticed the README.md file that GitHub automatically creates for us when we create a new repository (and tick that box) is made in Markdown.  At first I was a bit reluctant to learn something else, but this one is easy to work with.  Just play with a few lines in your README.md, you'll soon enjoy it I promise, [heres a good starting article, all you need really:](https://guides.github.com/features/mastering-markdown/)
+You will have noticed the README.md file that GitHub automatically creates for us when we create a new repository (and tick that box) is made in Markdown.  At first I was a bit reluctant to learn something else, but this one is easy to work with.  Just play with a few lines in your README.md, you'll soon enjoy it I promise, [heres a good article](https://guides.github.com/features/mastering-markdown/) to easily get you going.
 
 ## The End - For now
 
