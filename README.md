@@ -74,7 +74,7 @@ Create a GitHub account so that you can create and manage repositories.  With an
 
 [Sign up for Github](https://github.com)
 
-When you log in to GitHub, click on the disclosure icon neat your profile picture (top right) and select **Your Repositories**
+When you log in to GitHub, click on the disclosure icon near your profile picture (top right) and select **Your Repositories**
 
 1. To create a repository, click on **New**
 2. Enter a repository name (or use the suggestion shown!) and optionally enter a description.
@@ -130,7 +130,7 @@ So we created the repository in the GitHub cloud, setup our local copy of Git an
 
 > Note - As you can see from my path below, I am working in my home directory under a /scrips folder I created.  
 
-You will need to past in your repository web URL from the earlier step, below I used How-To-Github.git
+You will need to paste in your repository web URL that you copied to your clipboard in the earlier step, below I used 'https://github.com/NetDevNotes/How-To-Github.git'
 
 ```
 scripts|master⚡ ⇒ pwd
@@ -154,7 +154,7 @@ drwxr-xr-x   5 nico  staff   170 16 Feb 15:06 How-To-Github
 ```
 ## Change to the new repository folder 
 
-At this stage there is the folder, the .git folder and the README.md. But we have successfully cloned the repo :smile:
+So now we have our repository folder, and inside the .git folder and the README.md. We have successfully cloned the repo :clap:
 
 ```
 scripts|master⚡ ⇒ cd How-To-Github
@@ -246,9 +246,11 @@ How-To-Github|master ⇒
 
 > :clap: Success! If you browse to your GitHub repository page in a browser, you will see the new text file.
 
-When you dont want to commit changes directly to the master files, we can isolate development by creating a branch. A repository has one master branch and can have any number of other branches.  
+## Branches
 
-Branches can be reviewed by other team members by creating a pull request, comments can be made between team members, then after the review we can push the changes to the master branch in GitHub.  The new changes can be uploaded its own branch, or merged with the master branch. 
+When you dont want to commit changes directly to the master files (master branch), we can isolate development by creating a branch. A repository has one master branch and can have any number of other branches.  
+
+Branches can be reviewed by other team members by creating a pull request, comments can be made between team members, then after the review changes can can be pushed to the master branch, or any other branch within your repository. 
 
 Branches can be used to:
 
@@ -261,7 +263,7 @@ Branches can be used to:
 Create a new branch `git branch branch001`
 Enter the branch `git checkout branch001`
 
-I quickly backed README.md before I edit it, then I open up README.md in an editor and add a coffee emoticon, then I perform a `git status` to see what Git thinks about the edit.
+Next lets quickly back up the README.md before we edit it, open up then README.md in an editor and add a coffee emoticon, then perform a `git status` to see what Git thinks about the edit.
 
 Notice Git has recognised the new README.bak file and has also noticed that README.md has been modified.
 
