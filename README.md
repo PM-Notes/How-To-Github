@@ -98,7 +98,9 @@ You can if you like also install the Desktop App, but at this stage lets not wor
 
 > Note - I dont want to go into details on installation as it would make this article even larger and there are plenty of articles online to help.
 
-> The terminal I am using is ZSH with the GIT plugin, so you will see my terminal is telling me I am in a master GIT repository, I hope this doesnt confuse.  Blame @asainsbury for showing me cool stuff :raised_hands:
+> The terminal I am using is ZSH with the GIT plugin, so you will see my terminal is telling me I am in a master GIT repository, I hope this doesnt confuse.  
+
+Blame **@asainsbury** for showing me cool stuff :raised_hands:
 
 ## Setup Git
 
