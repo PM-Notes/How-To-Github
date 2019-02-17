@@ -130,7 +130,7 @@ So we created the repository in the GitHub cloud, setup our local copy of Git an
 
 > Note - As you can see from my path below, I am working in my home directory under a /scrips folder I created.  
 
-You will need to paste in your repository web URL that you copied to your clipboard in the earlier step, below I used 'https://github.com/NetDevNotes/How-To-Github.git'
+You will need to paste in your repository web URL that you copied to your clipboard in the earlier step, below I used `https://github.com/NetDevNotes/How-To-Github.git`
 
 ```
 scripts|master⚡ ⇒ pwd
