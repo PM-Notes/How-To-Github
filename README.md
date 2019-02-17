@@ -14,7 +14,7 @@ Git repositories were saved locally on a computer, or on a central server and sh
 
 Regarding file types, Git doesn't care about what the contents of a file is, or its file type, it only cares about the differences between different versions of the same file, so it can keep track of them.  
 
-So Git is not just for code development, its for tracking and collaboration of any type of file, from a simple How To document to complex architectural drawings, or even [How To's](https://github.com/NetDevNotes/How-To-Github/blob/master/README.md) :smile:
+So Git is not just for code development, its for tracking and collaboration of any type of file, from a simple text documents to complex architectural drawings, or even [How To's](https://github.com/NetDevNotes/How-To-Github/blob/master/README.md) :smile:
 
 ## Why GitHub?
 
@@ -305,7 +305,7 @@ How-To-Github|branch001⚡ ⇒ git commit -a -m "added coffee emoticon"
 
 ## Push the changes to GitHub
 
-This push will send the changes to the development branch (branch001), not the master branch:
+Because we are checked-out into branch001, the below push will send the changes to the development branch (branch001), not the master branch:
 ```
 How-To-Github|branch001⚡ ⇒ git push
 Enumerating objects: 5, done.
