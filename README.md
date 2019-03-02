@@ -16,6 +16,11 @@ Regarding file types, Git doesn't care about what the contents of a file is, or 
 
 So Git is not just for code development, its for tracking and collaboration of any type of file, from a simple text documents to complex architectural drawings, or even [How To's](https://github.com/NetDevNotes/How-To-Github/blob/master/README.md) :smile:
 
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
+
 ## Why GitHub?
 
 **GitHub** makes it simple for not only people within the same organisation to collaborate, but anyone anywhere in the world.  Team members dont need to be on the same network to be able to work on the same files. Changes can be created in their own branches, and merged into the master version when reviewed and approved. 
