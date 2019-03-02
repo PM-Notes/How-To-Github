@@ -15,7 +15,6 @@ Git repositories were saved locally on a computer, or on a central server and sh
 Regarding file types, Git doesn't care about what the contents of a file is, or its file type, it only cares about the differences between different versions of the same file, so it can keep track of them.  
 
 So Git is not just for code development, its for tracking and collaboration of any type of file, from a simple text documents to complex architectural drawings, or even [How To's](https://github.com/NetDevNotes/How-To-Github/blob/master/README.md) :smile:
-
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
@@ -35,6 +34,10 @@ Acc Type | Differences
 ------------|---------------------------------------------
 GitHub Free | Less granular permissions and features. But pretty cheap!
 GitHub Enterprise | More granular permissions and features, multiple approvers, advanced tools and insights.
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 ## How to Access & Manage Git Repositories
 
@@ -56,6 +59,10 @@ The **GutHub** [Online Help](https://help.github.com/) is the best reference for
 * From ClI, clone the repository so the folder and file is downloaded to our computer.
 * Create a new file and synchronise changes back to GitHub.com
 * Edit the README.md [markdown](https://guides.github.com/features/mastering-markdown/) file that was automatically created with the new repository, then synchronise (push) the changes back to GitHub.com
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 ## Parlance
 
@@ -90,6 +97,10 @@ When you log in to GitHub, click on the disclosure icon near your profile pictur
 7. Click on **Clone or Download** and click to copy the web URL.
 
 For Example: *https://github.com/NetDevNotes/How-To-Github.git*
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 ## Now for some CLI action!
 
@@ -128,6 +139,10 @@ scripts|master⚡ ⇒ git config --global user.email
 nico@nwten.net
 ```
 5. If this hasn't been done automatically, we need to check that we have [Set Commit Email Address on GitHub](https://help.github.com/articles/setting-your-commit-email-address-on-github/)
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 ## At Last!  Clone the repository
 
@@ -151,6 +166,11 @@ remote: Total 147 (delta 46), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (147/147), 32.81 KiB | 129.00 KiB/s, done.
 Resolving deltas: 100% (46/46), done.
 ```
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
+
 ## Confirm the repository was downloaded:
 
 ```
@@ -199,6 +219,11 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 How-To-Github|master⚡ ⇒
 ```
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
+
 ## Lets track (add) the file and perform a git status again
 
 ```
@@ -230,6 +255,10 @@ How-To-Github|master⚡ ⇒ git commit -m "adding text file to test push"
  create mode 100644 a_file_to_push.txt
 How-To-Github|master ⇒
 ````
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 ## Git Push!
 
@@ -298,6 +327,10 @@ Untracked files:
 
 	README.bak
 ```
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 ## Commit the changes
 
@@ -341,6 +374,10 @@ Merge made by the 'recursive' strategy.
  README.md | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
  ```
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 ## Verify the merge
 
@@ -386,6 +423,10 @@ Lastly, lets delete the development branch as we dont need it anymore as the cha
 How-To-Github|master⚡ ⇒ git branch -d branch001
 Deleted branch branch001 (was 966f619).
 ```
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 ## Final note on Markdown
 
@@ -394,3 +435,7 @@ You will have noticed the README.md file that GitHub automatically creates for u
 ## The End - For now
 
 I will need to make edits to this article, let me know how you get on, your feedback is appreciated.
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
