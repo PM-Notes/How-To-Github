@@ -432,6 +432,19 @@ Deleted branch branch001 (was 966f619).
 
 You will have noticed the README.md file that GitHub automatically creates for us when we create a new repository (and tick that box) is made in Markdown.  At first I was a bit reluctant to learn something else, but this one is easy to work with.  Just play with a few lines in your README.md, you'll soon enjoy it I promise, [heres a good article](https://guides.github.com/features/mastering-markdown/) to easily get you going.
 
+## Fork the repository, no need for a suppository!
+
+Excuse the title, dont want you getting bored :smile: Forking is when you make a copy of a repository, some of the differences between a branch and a fork are listed below:
+
+You cannot always make a branch, or pull an existing branch and push back to it, because you may not be registered as a collaborator for that specific project.
+Forking is basically a clone on the GitHib server, but you cannot directly push back to the repository. You have to use the Fork Queue feature to merge back to the master repository.
+Forks are also for using someone elses project as a starting point.
+Forks are also used if you just want to experiment without affecting the original project!
+Using forks reduces clutter within the original repository. 
+Using forks makes collaborating with the original repo more difficult as the fork owner needs to you as a collaborator.
+With branching all collaborators can push to the same branch to collaborate.
+If not deleted, there can be a lt of abandoned branches in a repo.
+
 ## The End - For now
 
 I will need to make edits to this article, let me know how you get on, your feedback is appreciated.
