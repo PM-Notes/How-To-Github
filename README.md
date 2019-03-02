@@ -450,10 +450,10 @@ If not deleted, there can be a lt of abandoned branches in a repo.
 You can fork from GitHub.com by navigating to the repository you would like to copy, then click the Fork button on the top right of the screen. This will fork the repo to your own GitHub account.
 
 Once compelte, you will be taken to your account and the files will have been copied/forked to your account.  Notice the name on the top left of the screen:
-'''
+```
 your-account-name/ansible_cisco_show_run
 forked from NetDevNotes/ansible_cisco_show_run
-'''
+```
 ## The End - For now
 
 I will need to make edits to this article, let me know how you get on, your feedback is appreciated.
