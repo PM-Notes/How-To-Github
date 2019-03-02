@@ -432,7 +432,7 @@ Deleted branch branch001 (was 966f619).
 
 You will have noticed the README.md file that GitHub automatically creates for us when we create a new repository (and tick that box) is made in Markdown.  At first I was a bit reluctant to learn something else, but this one is easy to work with.  Just play with a few lines in your README.md, you'll soon enjoy it I promise, [heres a good article](https://guides.github.com/features/mastering-markdown/) to easily get you going.
 
-## Fork the repository, no need for a suppository!
+## Fork the repository, so no need for a suppository!
 
 Excuse the title, dont want you getting bored :smile: Forking is when you make a copy of a repository, some of the differences between a branch and a fork are listed below:
 
